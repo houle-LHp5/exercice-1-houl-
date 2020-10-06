@@ -1,0 +1,87 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+#header
+{
+    display: flex;
+    height: 5vh;
+}
+
+#bloc1{
+    width: 80%;
+    background-color: greenyellow;
+}
+
+#bloc2{
+    width: 20%;
+    background-color: blue ;
+}
+
+#contenu
+{
+    display: grid;
+    grid-template-areas:
+    "a b "
+    "a c ";
+    grid-template-columns: calc(100%/3) 1fr;
+    grid-template-rows: 10vh 7vh;
+}
+
+#bloc3
+{
+    grid-area: a;
+    background-color: red;
+}
+
+#test{
+    grid-area: b;
+    display: flex;
+
+}
+
+#bloc4
+{
+    background-color: orange;
+    flex: 1;
+}
+
+#bloc5
+{
+    background-color:grey;
+    flex: 1;
+}
+
+#test2{
+    grid-area: c;
+    display: flex;
+}
+
+#bloc6{
+
+    background-color: yellow;
+    flex: 1;
+
+}
+
+#bloc7{
+
+    background-color: green;
+    flex: 1;
+}
+
+#bloc8{
+
+    background-color: brown;
+    flex: 1;
+}
+
+#bloc9{
+
+    background-color: black;
+    width: 100%;
+    height: 22vh;
+}
