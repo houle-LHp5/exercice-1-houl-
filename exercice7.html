@@ -1,0 +1,79 @@
+<!Doctype html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <title> le titre de mon exercice 6</title>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+
+    <body>
+        <form method="POST">
+            <fieldset class="blue"></fieldset>
+                <legend class="blue">votre identité</legend> 
+                <ol>
+                    <li>
+                        <label for="inputName">Nom:</label>
+                        <input type="text" placeholder="Nom" id="inputName">
+                    </li>
+                    <li>
+                        <label for="inputFirstname">Prénom:</label>
+                        <input type="text" placeholder="Prénom" id="inputFirstname" name="Firstname" required>
+                    </li>
+                    <li>
+                        <label for="inputMail">Adresse mail:</label>
+                        <input type="email" placeholder="Adresse Mail" id="inputMail" name="mail" required>
+                    </li>
+                </ol>
+            
+        <fieldset class="purple">
+            <legend class="blue">Adresse de livraison</legend> 
+            <ol>
+                <li>
+                    <label for="inputAddress">Adresse:</label>
+                    <textarea rows="5" cols="20" id="inpuntAddress" name="address"></textarea>
+                </li>
+                <li>
+                    <label for="inputCodepostal">Code postal:</label>
+                    <input type="text" placeholder="Code Postal" id="inputCodepostal" name="codepostal" required>
+                </li>
+                <li>
+                    <label for="inputMail">Adresse mail:</label>
+                    <input type="email" placeholder="Adresse Mail" id="inputMail" name="mail" required>
+                </li>   
+
+        <fieldset class="pink">
+            <legend class="pink">type de carte bancaire</legend>
+                <ol>
+                    <li>type de carte bancaire</li>
+                    <input type="radio" id="visa" name="creditCard">
+                    <label for="VISA">visa</label>
+                    <div><input type="radio" id="MasterCard"</div>
+                    <label for="MasterCard">MasterCard</label>
+
+                    <li>
+                        <label for="CardNumber">Numéro de carte</label>
+                        <input type="password" placeholder="Numéro de carte" id="cardNumber" name="cardNumber">
+                    </li>
+
+                    <li>
+                        <label for="securtyCode">code de securité</label>
+                        <input type="password" placeholder="code de sécurité" id="securityCode" name="secutityCode">
+
+                    </li>
+
+                    <li>
+                        <label for="userName">Nom du titulaire</label>
+                        <input type="text" placeholder="non du titulaire" id="userName" name="UserName">
+
+                    </li>
+                </ol>
+
+            </fieldset>
+
+
+        </fieldset>
+
+    </fieldset> 
+        </form>
+    </body>
+</html>
